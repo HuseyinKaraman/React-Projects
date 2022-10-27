@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin-top: 100px;
+}
+
+.select {
+  margin: 20px;
+  width: 200px;
+  font-size: 1.2rem;
+  border: 2px solid lightslategray;
+}
+
+.display-style{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.weekly-weather{
+  height: 40vh;
+  display:flex;
+  justify-content: space-between;
+  align-items: center; 
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.item {
+    background-color: #4FA095;
+  border: 5px solid #fff;
+}
+
+.item:hover {
+  background-color: #BAD1C2;
+  position: relative;
+  top: -20px;
+}
+
+.icon {
+   width: 90px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.current-day{
+  background-color: #5DA7DB;
+}
