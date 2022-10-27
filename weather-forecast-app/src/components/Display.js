@@ -84,6 +84,15 @@ const citys = [
    "Zonguldak",
 ];
 
+function toWeekOfDay(valid_date) {
+   const date = new Date(valid_date);
+   return date.toLocaleString("en-us", { weekday: "long" });
+}
+
+function imageSource(icon) {
+   return require("../../public/icons/" + icon + ".png");
+}
+
 function Display() {
    const { data, isLoading, setCity } = useApi();
 
@@ -109,9 +118,9 @@ function Display() {
             {!isLoading &&
                data?.map((day, index) => (
                   <div key={index} className={`item ${index === 0 ? "current-day" : ""}`}>
-                     <p>{day.valid_date}</p>
+                     <p>{toWeekOfDay(day.valid_date)}</p>
                      <img
-                        src={require("../../public/icons/" + day.weather.icon + ".png")}
+                        src={imageSource(day.weather.icon)}
                         alt=""
                         className="icon"
                      />
