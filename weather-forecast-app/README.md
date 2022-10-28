@@ -1,4 +1,8 @@
 www.patika.dev sitesi React egitimi context bolumu odevidir.
+
+codesandbox ::
+https://codesandbox.io/s/weather-forecast-app-dusffj     
+
 @Note: weather data was received from https://api.weatherbit.io/ 
 
 # Getting Started with Create React App
