@@ -1,3 +1,8 @@
+www.patika.dev sitesi React egitimi contacts app bolumu odevidir.
+
+codesandbox :: https://codesandbox.io/s/react-todos-app-5gdwjs
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
